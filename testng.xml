@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ClinicalManagementSystemV1">
+
+	<listeners>
+
+		<listener
+			class-name="com.maven.cms.ClinicalManagementSystem.Config.Reporting" />
+	</listeners>
+
+
+	<test name="ClinicalManagementSystemTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- -->
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC001_LoginTest" />
+
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC003_ClientSearchTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC004_ClientFilterTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC005_ClientSortTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC006_ClientManageTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC007_ClientManageViewTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC008_ClientManageEditClientInfoTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC009_HomeClientbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC010_HomePrivacybuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC011_HomeBillingbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC012_HomeReportsbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC013_HomeAccountActivitybuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC014_HomeRemindersbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC015_HomeCreatebuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC016_HomeCreateClientbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC017_HomeCreateAppointmentbuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC018_HomeMessagebuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC019_HomeUpgradebuttonTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC020_HomeSearchTest" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC021_HomeHelpbutton" />
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC022_ClientManageMergeWithTest" />
+
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC023_ClientManageMakeInactiveTest" />
+
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC024_ClientnameLinkTest" />
+
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest" />
+
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC026_HomeBrokenLinkTest" />
+
+		</classes>
+	</test>
+</suite>
