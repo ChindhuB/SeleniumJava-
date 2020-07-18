@@ -5,7 +5,7 @@
 	<listeners>
 
 		<listener
-			class-name="com.maven.cms.ClinicalManagementSystem.Config.Reporting" />
+			class-name="com.maven.cms.ClinicalManagementSystem.Config.ReportingNew" />
 	</listeners>
 
 
