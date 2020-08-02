@@ -1,424 +1,201 @@
-2020-07-05 16:29:55,392 - Clinical Managment System -INFO - SignIn Page Website : 
-2020-07-05 16:29:55,600 - Clinical Managment System -INFO - SignIn Page Username is provided
-2020-07-05 16:29:55,777 - Clinical Managment System -INFO - SignIn Page Password is provided
-2020-07-05 16:29:59,085 - Clinical Managment System -INFO - SignIn Page SignIn clicked
-2020-07-05 16:29:59,911 - Clinical Managment System -INFO - SignIn Page SignIn Passed
-2020-07-05 16:30:01,468 - Clinical Managment System -INFO - SignIn Page SignOut Passed
-2020-07-05 16:30:07,418 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:30:07,592 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:30:07,796 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:30:11,070 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:30:11,960 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:30:11,961 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:30:12,798 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:30:19,406 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:30:19,595 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:30:19,811 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:30:22,392 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:30:23,518 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:30:23,518 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:30:24,506 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:30:30,902 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:30:31,200 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:30:31,439 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:30:34,300 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:30:35,504 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:30:35,504 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:30:36,469 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:30:42,891 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:30:43,111 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:30:43,332 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:30:46,564 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:30:47,214 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:30:47,214 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:30:47,953 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:30:54,508 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:30:54,663 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:30:54,839 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:30:57,946 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:30:58,882 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:30:58,882 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:30:59,804 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:31:05,959 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:31:06,122 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:31:06,289 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:31:09,985 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:31:10,558 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:31:10,558 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:31:11,293 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:31:17,677 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:31:18,015 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:31:18,199 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:31:21,523 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:31:22,123 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:31:22,123 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:31:22,865 - Clinical Managment System -INFO - Home Page Client button verification Failed
-2020-07-05 16:31:29,060 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:31:29,374 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:31:29,603 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:31:32,897 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:31:33,912 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:31:33,912 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:31:34,079 - Clinical Managment System -INFO - Home Page Calendar button verification Passed
-2020-07-05 16:31:34,415 - Clinical Managment System -INFO - Home Page Privacy button verification Passed
-2020-07-05 16:31:35,841 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:31:41,319 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:31:41,476 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:31:41,653 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:31:44,722 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:31:45,920 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:31:45,920 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:31:47,329 - Clinical Managment System -INFO - Home Page Billing button verification Failed
-2020-07-05 16:31:53,488 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:31:53,645 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:31:53,816 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:31:57,214 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:31:58,153 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:31:58,153 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:03,966 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:32:04,236 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:32:04,541 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:32:07,497 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:32:08,486 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:32:08,486 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:08,993 - Clinical Managment System -INFO - Home Page Account activity button verification Passed
-2020-07-05 16:32:11,051 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:32:17,038 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:32:17,177 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:32:17,361 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:32:20,853 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:32:21,666 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:32:21,666 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:23,189 - Clinical Managment System -INFO - Home Page Reminders button verification Passed
-2020-07-05 16:32:28,907 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:32:29,054 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:32:29,228 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:32:32,315 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:32:33,238 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:32:33,238 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:33,575 - Clinical Managment System -INFO - Home Page Create button verification Passed
-2020-07-05 16:32:34,943 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:32:40,437 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:32:40,604 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:32:40,796 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:32:43,885 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:32:44,831 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:32:44,831 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:46,194 - Clinical Managment System -INFO - Home Page Create Client button verification Passed
-2020-07-05 16:32:47,606 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:32:53,283 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:32:53,427 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:32:53,593 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:32:56,980 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:32:57,824 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:32:57,824 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:32:59,115 - Clinical Managment System -INFO - Home Page Create Appointment button verification Passed
-2020-07-05 16:33:06,335 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:33:06,481 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:33:06,653 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:33:09,970 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:33:11,042 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:33:11,043 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:33:11,445 - Clinical Managment System -INFO - Home Page Message button verification Passed
-2020-07-05 16:33:18,310 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:33:18,459 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:33:18,647 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:33:21,957 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:33:22,824 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:33:22,824 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:33:23,976 - Clinical Managment System -INFO - Home Page Upgrade button verification Passed
-2020-07-05 16:33:25,591 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:33:31,134 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:33:31,288 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:33:31,451 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:33:34,918 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:33:35,889 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:33:35,889 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:33:36,757 - Clinical Managment System -INFO - Home Page Search option verification Passed for :Kevi
-2020-07-05 16:33:38,207 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:33:44,157 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:33:44,470 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:33:44,742 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:33:47,722 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:33:48,746 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:33:48,746 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:33:48,990 - Clinical Managment System -INFO - Home Page Help button verification Passed
-2020-07-05 16:33:50,480 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:33:56,988 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:33:57,251 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:33:57,485 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:34:00,509 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:34:01,381 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:34:01,381 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:34:02,236 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:34:10,342 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:34:10,613 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:34:10,912 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:34:13,137 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:34:14,892 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:34:14,892 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:34:15,652 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:34:24,857 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:34:25,049 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:34:25,210 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:34:28,688 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:34:29,662 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:34:29,663 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:34:30,370 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:34:38,751 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:34:38,977 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:34:39,148 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:34:42,752 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:34:43,645 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:34:43,645 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:34:44,351 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:34:53,677 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:34:53,852 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:34:54,026 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:34:57,172 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:34:58,048 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:34:58,049 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:35:13,234 - Clinical Managment System -INFO - Home Page Phone Broken Link verification Passed,No Broken Links
-2020-07-05 16:35:14,862 - Clinical Managment System -INFO - Home Page Sign Out from system
-2020-07-05 16:37:08,215 - Clinical Managment System -INFO - SignIn Page Website : 
-2020-07-05 16:37:08,396 - Clinical Managment System -INFO - SignIn Page Username is provided
-2020-07-05 16:37:08,578 - Clinical Managment System -INFO - SignIn Page Password is provided
-2020-07-05 16:37:11,643 - Clinical Managment System -INFO - SignIn Page SignIn clicked
-2020-07-05 16:37:12,602 - Clinical Managment System -INFO - SignIn Page SignIn Passed
-2020-07-05 16:37:14,178 - Clinical Managment System -INFO - SignIn Page SignOut Passed
-2020-07-05 16:37:20,622 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:37:20,766 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:37:20,962 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:37:24,323 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:37:25,177 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:37:25,177 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:37:26,128 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:37:32,554 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:37:32,700 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:37:32,884 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:37:36,211 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:37:37,095 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:37:37,095 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:37:37,816 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:37:44,112 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:37:44,382 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:37:44,613 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:37:47,536 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:37:48,390 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:37:48,390 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:37:49,104 - Clinical Managment System -INFO - Client Page Client button verification Failed
-2020-07-05 16:46:14,007 - Clinical Managment System -INFO - SignIn Page Website : 
-2020-07-05 16:46:14,194 - Clinical Managment System -INFO - SignIn Page Username is provided
-2020-07-05 16:46:14,377 - Clinical Managment System -INFO - SignIn Page Password is provided
-2020-07-05 16:46:16,886 - Clinical Managment System -INFO - SignIn Page SignIn clicked
-2020-07-05 16:46:18,653 - Clinical Managment System -INFO - SignIn Page SignIn Passed
-2020-07-05 16:46:20,363 - Clinical Managment System -INFO - SignIn Page SignOut Passed
-2020-07-05 16:46:25,912 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:46:26,113 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:46:26,300 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:46:29,840 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:46:30,754 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:46:30,754 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:46:31,742 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:46:34,589 - Clinical Managment System -INFO - Client Page Search verification Passed for :Kevin
-2020-07-05 16:46:36,491 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:46:43,172 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:46:43,337 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:46:43,546 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:46:46,369 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:46:47,353 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:46:47,354 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:46:48,168 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:46:48,883 - Clinical Managment System -INFO - Client Page Filter verification Passed for :Contacts
-2020-07-05 16:46:49,537 - Clinical Managment System -INFO - Client Page Filter verification Passed for :Clients & Contacts
-2020-07-05 16:46:50,251 - Clinical Managment System -INFO - Client Page Filter verification Passed for :Recently viewed Clients
-2020-07-05 16:46:50,918 - Clinical Managment System -INFO - Client Page Filter verification Passed for :Inactive Clients
-2020-07-05 16:46:51,571 - Clinical Managment System -INFO - Client Page Filter verification Passed for :Clients
-2020-07-05 16:46:52,914 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:46:58,787 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:46:59,050 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:46:59,267 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:47:02,714 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:47:03,595 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:47:03,595 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:47:04,337 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:47:05,182 - Clinical Managment System -INFO - Client Page Sort verification Passed for :First name
-2020-07-05 16:47:05,877 - Clinical Managment System -INFO - Client Page Sort verification Passed for :Last name
-2020-07-05 16:47:07,173 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:47:13,064 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:47:13,393 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:47:13,605 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:47:16,458 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:47:17,459 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:47:17,459 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:47:18,171 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:47:18,364 - Clinical Managment System -INFO - Client Page Active Manage Option verification Passed
-2020-07-05 16:47:18,684 - Clinical Managment System -INFO - Client Page InActive Manage Option verification Passed
-2020-07-05 16:47:19,881 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:47:26,058 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:47:26,349 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:47:26,546 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:47:28,784 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:47:30,796 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:47:30,797 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:47:31,500 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:47:32,312 - Clinical Managment System -INFO - Client Page Manage-->View Option click Passed
-2020-07-05 16:47:33,195 - Clinical Managment System -INFO - Client Page Manage-->View Option verification Passed
-2020-07-05 16:47:34,700 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:47:41,089 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:47:41,368 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:47:41,581 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:47:44,047 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:47:45,594 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:47:45,594 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:47:46,359 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:47:46,962 - Clinical Managment System -INFO - Client Page Manage-->EditClientInfo Option click Passed
-2020-07-05 16:47:47,771 - Clinical Managment System -INFO - Client Page Manage-->EditClientInfo Option verification Passed
-2020-07-05 16:47:49,150 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:47:54,990 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:47:55,297 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:47:55,528 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:47:58,620 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:47:59,618 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:47:59,618 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:48:00,379 - Clinical Managment System -INFO - Home Page Client button verification Passed
-2020-07-05 16:48:01,755 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:48:07,493 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:48:07,639 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:48:07,822 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:48:11,128 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:48:12,094 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:48:12,095 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:48:12,257 - Clinical Managment System -INFO - Home Page Calendar button verification Passed
-2020-07-05 16:48:12,603 - Clinical Managment System -INFO - Home Page Privacy button verification Passed
-2020-07-05 16:48:14,039 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:48:19,843 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:48:20,159 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:48:20,342 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:48:23,131 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:48:24,327 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:48:24,327 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:48:25,896 - Clinical Managment System -INFO - Home Page Billing button verification Passed
-2020-07-05 16:48:32,143 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:48:32,293 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:48:32,464 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:48:35,905 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:48:36,630 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:48:36,630 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:48:42,283 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:48:42,485 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:48:42,678 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:48:46,049 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:48:46,684 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:48:46,684 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:48:47,093 - Clinical Managment System -INFO - Home Page Account activity button verification Passed
-2020-07-05 16:48:49,209 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:48:54,800 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:48:55,027 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:48:55,247 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:48:59,023 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:48:59,882 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:48:59,882 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:49:01,522 - Clinical Managment System -INFO - Home Page Reminders button verification Passed
-2020-07-05 16:49:07,382 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:49:07,649 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:49:07,853 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:49:10,928 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:49:11,798 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:49:11,798 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:49:12,375 - Clinical Managment System -INFO - Home Page Create button verification Passed
-2020-07-05 16:49:13,660 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:49:19,486 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:49:19,716 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:49:19,917 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:49:22,811 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:49:23,730 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:49:23,730 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:49:25,084 - Clinical Managment System -INFO - Home Page Create Client button verification Passed
-2020-07-05 16:49:26,515 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:49:32,786 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:49:32,946 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:49:33,145 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:49:37,258 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:49:37,720 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:49:37,720 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:49:38,473 - Clinical Managment System -INFO - Home Page Create Appointment button verification Passed
-2020-07-05 16:49:45,597 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:49:45,770 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:49:45,946 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:49:48,831 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:49:49,868 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:49:49,868 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:49:50,198 - Clinical Managment System -INFO - Home Page Message button verification Passed
-2020-07-05 16:49:56,354 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:49:56,687 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:49:56,892 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:50:00,222 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:50:01,159 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:50:01,159 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:50:02,371 - Clinical Managment System -INFO - Home Page Upgrade button verification Passed
-2020-07-05 16:50:03,812 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:50:09,729 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:50:09,921 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:50:10,136 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:50:13,571 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:50:14,545 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:50:14,545 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:50:15,401 - Clinical Managment System -INFO - Home Page Search option verification Passed for :Kevi
-2020-07-05 16:50:16,692 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:50:22,307 - Clinical Managment System -INFO - Home Page Website : 
-2020-07-05 16:50:22,654 - Clinical Managment System -INFO - Home Page Username is provided
-2020-07-05 16:50:22,899 - Clinical Managment System -INFO - Home Page Password is provided
-2020-07-05 16:50:25,794 - Clinical Managment System -INFO - Home Page SignIn clicked
-2020-07-05 16:50:26,681 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:50:26,681 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:50:26,972 - Clinical Managment System -INFO - Home Page Help button verification Passed
-2020-07-05 16:50:28,427 - Clinical Managment System -INFO - Sign out from system
-2020-07-05 16:50:34,682 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:50:34,959 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:50:35,143 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:50:38,384 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:50:39,298 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:50:39,298 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:50:40,017 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:50:40,578 - Clinical Managment System -INFO - Client Page Manage-->MergeWith Option click Passed
-2020-07-05 16:50:41,190 - Clinical Managment System -INFO - Client Page Manage-->MergeWith Option verification Passed
-2020-07-05 16:50:42,752 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:50:50,706 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:50:50,895 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:50:51,088 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:50:54,341 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:50:55,196 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:50:55,196 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:50:56,011 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:50:56,669 - Clinical Managment System -INFO - Client Page Manage-->Make Inactive Option click Passed
-2020-07-05 16:50:57,227 - Clinical Managment System -INFO - Client Page Manage-->Make Inactive Option verification Passed
-2020-07-05 16:50:58,575 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:51:06,437 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:51:06,595 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:51:06,755 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:51:10,059 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:51:10,891 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:51:10,891 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:51:11,650 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:51:12,135 - Clinical Managment System -INFO - Client Page Name Link Option click Passed
-2020-07-05 16:51:12,928 - Clinical Managment System -INFO - Client Page Name Link Option verification Passed
-2020-07-05 16:51:14,561 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:51:22,680 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:51:22,847 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:51:23,034 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:51:26,417 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:51:27,391 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:51:27,392 - Clinical Managment System -INFO - Client Page SignIn Passed
-2020-07-05 16:51:28,141 - Clinical Managment System -INFO - Client Page Client button verification Passed
-2020-07-05 16:51:29,374 - Clinical Managment System -INFO - Client Page Phone Link Option click Passed
-2020-07-05 16:51:30,516 - Clinical Managment System -INFO - Client Page Phone Link Option verification Passed
-2020-07-05 16:51:32,074 - Clinical Managment System -INFO - Client Page SignOut from system
-2020-07-05 16:51:40,179 - Clinical Managment System -INFO - Client Page Website : 
-2020-07-05 16:51:40,353 - Clinical Managment System -INFO - Client Page Username is provided
-2020-07-05 16:51:40,545 - Clinical Managment System -INFO - Client Page Password is provided
-2020-07-05 16:51:43,697 - Clinical Managment System -INFO - Client Page SignIn clicked
-2020-07-05 16:51:44,717 - Clinical Managment System -INFO - No Trial Version pop up
-2020-07-05 16:51:44,717 - Clinical Managment System -INFO - Home Page SignIn Passed
-2020-07-05 16:51:58,062 - Clinical Managment System -INFO - Home Page Phone Broken Link verification Passed,No Broken Links
-2020-07-05 16:51:59,803 - Clinical Managment System -INFO - Home Page Sign Out from system
+2020-08-02 02:08:25,601 - Clinical Managment System -INFO - SignIn Page Website : 
+2020-08-02 02:08:25,762 - Clinical Managment System -INFO - SignIn Page Username is provided
+2020-08-02 02:08:25,919 - Clinical Managment System -INFO - SignIn Page Password is provided
+2020-08-02 02:08:29,103 - Clinical Managment System -INFO - SignIn Page SignIn clicked
+2020-08-02 02:08:30,012 - Clinical Managment System -INFO - SignIn Page SignIn Passed
+2020-08-02 02:08:37,219 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:08:37,356 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:08:37,530 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:08:40,691 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:08:41,835 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:08:41,836 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:08:43,436 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:08:46,150 - Clinical Managment System -INFO - Client Page Search verification Passed for :Kevin
+2020-08-02 02:08:47,969 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:08:53,444 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:08:53,572 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:08:53,837 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:09:02,909 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:09:03,604 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:09:03,605 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:09:10,472 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:09:10,617 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:09:10,841 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:09:14,233 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:09:15,186 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:09:15,186 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:09:16,900 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:09:17,598 - Clinical Managment System -INFO - Client Page Sort verification Passed for :First name
+2020-08-02 02:09:18,268 - Clinical Managment System -INFO - Client Page Sort verification Passed for :Last name
+2020-08-02 02:09:19,534 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:09:25,180 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:09:25,365 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:09:25,517 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:09:28,598 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:09:29,281 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:09:29,282 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:09:31,069 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:09:31,270 - Clinical Managment System -INFO - Client Page Active Manage Option verification Passed
+2020-08-02 02:09:31,384 - Clinical Managment System -INFO - Client Page InActive Manage Option verification Passed
+2020-08-02 02:09:32,525 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:09:38,363 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:09:38,522 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:09:38,690 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:09:41,532 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:09:42,248 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:09:42,249 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:09:43,974 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:09:44,411 - Clinical Managment System -INFO - Client Page Manage-->View Option click Passed
+2020-08-02 02:09:45,231 - Clinical Managment System -INFO - Client Page Manage-->View Option verification Passed
+2020-08-02 02:09:46,698 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:09:52,286 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:09:52,430 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:09:52,590 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:09:55,424 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:09:56,290 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:09:56,291 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:09:57,607 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:09:58,074 - Clinical Managment System -INFO - Client Page Manage-->EditClientInfo Option click Passed
+2020-08-02 02:09:58,759 - Clinical Managment System -INFO - Client Page Manage-->EditClientInfo Option verification Passed
+2020-08-02 02:10:00,155 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:10:05,864 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:10:06,009 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:10:06,178 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:10:09,377 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:10:10,228 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:10:10,229 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:10:11,570 - Clinical Managment System -INFO - Home Page Client button verification Passed
+2020-08-02 02:10:12,754 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:10:18,432 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:10:18,600 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:10:18,776 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:10:21,585 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:10:22,767 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:10:22,767 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:10:23,328 - Clinical Managment System -INFO - Home Page Calendar button verification Passed
+2020-08-02 02:10:23,749 - Clinical Managment System -INFO - Home Page Privacy button verification Passed
+2020-08-02 02:10:25,017 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:10:30,652 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:10:30,815 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:10:30,963 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:10:33,661 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:10:34,542 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:10:34,543 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:10:36,737 - Clinical Managment System -INFO - Home Page Billing button verification Passed
+2020-08-02 02:10:43,020 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:10:43,163 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:10:43,330 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:10:46,352 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:10:47,129 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:10:47,129 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:10:53,466 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:10:53,597 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:10:53,769 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:10:56,737 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:10:57,722 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:10:57,722 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:10:59,288 - Clinical Managment System -INFO - Home Page Account activity button verification Passed
+2020-08-02 02:11:00,541 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:11:06,296 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:11:06,461 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:11:06,611 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:11:09,484 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:11:10,725 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:11:10,726 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:11:12,513 - Clinical Managment System -INFO - Home Page Reminders button verification Passed
+2020-08-02 02:11:18,665 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:11:18,814 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:11:18,988 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:11:22,097 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:11:23,032 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:11:23,032 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:11:24,270 - Clinical Managment System -INFO - Home Page Create button verification Passed
+2020-08-02 02:11:25,478 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:11:31,067 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:11:31,238 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:11:31,391 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:11:33,937 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:11:35,629 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:11:35,630 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:11:37,322 - Clinical Managment System -INFO - Home Page Create Client button verification Passed
+2020-08-02 02:11:38,553 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:11:44,271 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:11:44,412 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:11:44,573 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:11:46,959 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:11:48,339 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:11:48,340 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:11:55,150 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:11:55,305 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:11:55,458 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:11:58,436 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:11:59,687 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:11:59,687 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:12:00,884 - Clinical Managment System -INFO - Home Page Message button verification Passed
+2020-08-02 02:12:07,116 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:12:07,297 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:12:07,445 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:12:10,096 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:12:10,987 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:12:10,988 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:12:12,930 - Clinical Managment System -INFO - Home Page Upgrade button verification Passed
+2020-08-02 02:12:14,235 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:12:19,956 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:12:20,154 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:12:20,337 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:12:23,514 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:12:24,435 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:12:24,435 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:12:25,142 - Clinical Managment System -INFO - Home Page Search option verification Failed for :Kevi
+2020-08-02 02:12:31,412 - Clinical Managment System -INFO - Home Page Website : 
+2020-08-02 02:12:31,575 - Clinical Managment System -INFO - Home Page Username is provided
+2020-08-02 02:12:31,727 - Clinical Managment System -INFO - Home Page Password is provided
+2020-08-02 02:12:35,015 - Clinical Managment System -INFO - Home Page SignIn clicked
+2020-08-02 02:12:36,238 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:12:36,238 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:12:36,594 - Clinical Managment System -INFO - Home Page Help button verification Passed
+2020-08-02 02:12:37,905 - Clinical Managment System -INFO - Sign out from system
+2020-08-02 02:12:43,515 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:12:43,646 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:12:43,800 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:12:47,060 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:12:47,992 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:12:47,992 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:12:49,117 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:12:49,583 - Clinical Managment System -INFO - Client Page Manage-->MergeWith Option click Passed
+2020-08-02 02:12:50,282 - Clinical Managment System -INFO - Client Page Manage-->MergeWith Option verification Passed
+2020-08-02 02:12:51,563 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:12:59,630 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:12:59,772 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:12:59,915 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:13:02,797 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:13:03,718 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:13:03,719 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:13:13,638 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:13:13,789 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:13:13,934 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:13:16,875 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:13:17,878 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:13:17,878 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:13:19,258 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:13:19,493 - Clinical Managment System -INFO - Client Page Name Link Option click Passed
+2020-08-02 02:13:20,346 - Clinical Managment System -INFO - Client Page Name Link Option verification Passed
+2020-08-02 02:13:21,886 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:13:30,429 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:13:30,602 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:13:30,750 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:13:33,245 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:13:34,431 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:13:34,431 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-08-02 02:13:35,860 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-08-02 02:13:36,224 - Clinical Managment System -INFO - Client Page Phone Link Option click Passed
+2020-08-02 02:13:37,172 - Clinical Managment System -INFO - Client Page Phone Link Option verification Passed
+2020-08-02 02:13:38,481 - Clinical Managment System -INFO - Client Page SignOut from system
+2020-08-02 02:13:46,195 - Clinical Managment System -INFO - Client Page Website : 
+2020-08-02 02:13:46,361 - Clinical Managment System -INFO - Client Page Username is provided
+2020-08-02 02:13:46,502 - Clinical Managment System -INFO - Client Page Password is provided
+2020-08-02 02:13:49,251 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-08-02 02:13:50,373 - Clinical Managment System -INFO - No Trial Version pop up
+2020-08-02 02:13:50,374 - Clinical Managment System -INFO - Home Page SignIn Passed
+2020-08-02 02:14:03,141 - Clinical Managment System -INFO - Home Page Phone Broken Link verification Passed,No Broken Links
+2020-08-02 02:14:04,403 - Clinical Managment System -INFO - Home Page Sign Out from system
