@@ -2,6 +2,7 @@ package com.maven.cms.ClinicalManagementSystem.Config;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.testng.ITestContext;
@@ -15,7 +16,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
- import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ReportingNew extends TestListenerAdapter {
 	public ExtentSparkReporter htmlReporter;
@@ -42,29 +43,29 @@ public class ReportingNew extends TestListenerAdapter {
 
 	}
 
-	/*
-	 * public void onTestStart(ITestResult tr) {
-	 * 
-	 * logger = extent.createTest(tr.getName(),tr.getMethod().getDescription());
-	 * logger.assignCategory(tr.getTestContext().getSuite().getName()); }
-	 */
-	public void onTestSuccess(ITestResult tr) {
+	public void onTestStart(ITestResult tr) {
 		// create new entry in the report
-		logger = extent.createTest(tr.getTestClass().getName(),tr.getName());
+		String qualifiedName = tr.getTestClass().getName();
+		int last = qualifiedName.lastIndexOf(".");
+		String className = qualifiedName.substring(last+1);
+		logger = extent.createTest(className, tr.getMethod().getDescription());
+		logger.assignCategory(tr.getTestContext().getSuite().getName());
+		logger.getModel().setStartTime(getTime(tr.getStartMillis()));
+	}
+
+	public void onTestSuccess(ITestResult tr) {
 		// send the passed information to the report with GREEN color highlighted
 		logger.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
-		logger.assignCategory(tr.getTestContext().getSuite().getName());
+		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
 
 	}
 
 	public void onTestFailure(ITestResult tr) {
-		// create new entry in the report
-		logger = extent.createTest(tr.getTestClass().getName(),tr.getName());
 		// send the failed information to the report with RED color highlighted
 		logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
-		logger.assignCategory(tr.getTestContext().getSuite().getName());
+		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
 		try {
-		logger.fail(tr.getThrowable());
+			logger.fail(tr.getThrowable());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -80,16 +81,21 @@ public class ReportingNew extends TestListenerAdapter {
 	}
 
 	public void onTestSkipped(ITestResult tr) {
-		// create new entry in the report
-		logger = extent.createTest(tr.getName());
 		// send the skipped information to the report with ORANGE color highlighted
 		logger.log(Status.SKIP, MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
+		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
 		try {
 			logger.fail(tr.getThrowable());
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
+	}
+
+	private Date getTime(long millis) {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTimeInMillis(millis);
+		return calendar.getTime();
 	}
 
 	public void onFinish(ITestContext testContext) {
