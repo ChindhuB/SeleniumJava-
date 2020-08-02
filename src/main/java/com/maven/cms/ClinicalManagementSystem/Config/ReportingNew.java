@@ -27,13 +27,14 @@ public class ReportingNew extends TestListenerAdapter {
 		// specify name and location of the report
 		String repName = System.getProperty("user.dir") + "/test-output/" + "Test-Report-" + timeStamp + ".html";
 		htmlReporter = new ExtentSparkReporter(repName);
-		//htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
+		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host name", "localhost");
 		extent.setSystemInfo("Environemnt", "QA");
 		extent.setSystemInfo("user", "Chindhu");
+		extent.setReportUsesManualConfiguration(true);
 
 		htmlReporter.config().setDocumentTitle("Sample Project"); // Title of report
 		htmlReporter.config().setReportName("Functional Test Report"); // name of the report
@@ -49,7 +50,7 @@ public class ReportingNew extends TestListenerAdapter {
 	 */
 	public void onTestSuccess(ITestResult tr) {
 		// create new entry in the report
-		logger = extent.createTest(tr.getName(),tr.getMethod().getDescription());
+		logger = extent.createTest(tr.getTestClass().getName(),tr.getName());
 		// send the passed information to the report with GREEN color highlighted
 		logger.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
 		logger.assignCategory(tr.getTestContext().getSuite().getName());
@@ -58,7 +59,7 @@ public class ReportingNew extends TestListenerAdapter {
 
 	public void onTestFailure(ITestResult tr) {
 		// create new entry in the report
-		logger = extent.createTest(tr.getName());
+		logger = extent.createTest(tr.getTestClass().getName(),tr.getName());
 		// send the failed information to the report with RED color highlighted
 		logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 		logger.assignCategory(tr.getTestContext().getSuite().getName());
