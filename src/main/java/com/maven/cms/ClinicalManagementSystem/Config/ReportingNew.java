@@ -12,11 +12,14 @@ import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
 
 public class ReportingNew extends TestListenerAdapter {
 	public ExtentSparkReporter htmlReporter;
@@ -28,6 +31,7 @@ public class ReportingNew extends TestListenerAdapter {
 		// specify name and location of the report
 		String repName = System.getProperty("user.dir") + "/test-output/" + "Test-Report-" + timeStamp + ".html";
 		htmlReporter = new ExtentSparkReporter(repName);
+		
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
 		extent = new ExtentReports();
@@ -37,9 +41,12 @@ public class ReportingNew extends TestListenerAdapter {
 		extent.setSystemInfo("user", "Chindhu");
 		extent.setReportUsesManualConfiguration(true);
 
+
 		htmlReporter.config().setDocumentTitle("Sample Project"); // Title of report
 		htmlReporter.config().setReportName("Functional Test Report"); // name of the report
 		htmlReporter.config().setTheme(Theme.STANDARD);
+		
+		
 
 	}
 
@@ -57,26 +64,34 @@ public class ReportingNew extends TestListenerAdapter {
 		// send the passed information to the report with GREEN color highlighted
 		logger.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
 		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
-
 	}
 
 	public void onTestFailure(ITestResult tr) {
 		// send the failed information to the report with RED color highlighted
+		Object testObj=tr.getInstance();
+		Class cls=tr.getTestClass().getRealClass().getSuperclass();
+		String screenshotname="test";
+		System.out.println("1"+screenshotname);
+		try {
+			screenshotname = cls.getDeclaredField("bscreenshotname").get(testObj).toString();
+			System.out.println("2"+screenshotname);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
 		logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
-		try {
-			logger.fail(tr.getThrowable());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		String screenshotpath = System.getProperty("user.dir") + "/src/test/Screenshots/" + tr.getName() + ".png";
+		String screenshotpath ="./test-output/Screenshots/" + screenshotname + ".png";
 		File screenshot = new File(screenshotpath);
 		if (screenshot.exists()) {
 			try {
-				logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotpath));
+				logger.fail("Screenshot is below:" +screenshotpath);
+				logger.log(Status.FAIL, tr.getThrowable(),MediaEntityBuilder.createScreenCaptureFromPath("."+screenshotpath).build());
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+		}else {
+			logger.log(Status.FAIL, tr.getThrowable());
 		}
 	}
 
@@ -85,7 +100,7 @@ public class ReportingNew extends TestListenerAdapter {
 		logger.log(Status.SKIP, MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
 		logger.getModel().setEndTime(getTime(tr.getEndMillis()));
 		try {
-			logger.fail(tr.getThrowable());
+			logger.log(Status.SKIP, tr.getThrowable());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
