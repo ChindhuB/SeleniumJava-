@@ -2,6 +2,7 @@ package com.maven.cms.ClinicalManagementSystem.TestCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.format.DateTimeFormatter;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -25,6 +26,7 @@ public class baseClass {
 	public String path = config.getChromepath();
 	public static WebDriver driver;
 	public static Logger logger; // Added Logger
+	public String bscreenshotname;
 
 	@BeforeClass
 	@Parameters("browser")
@@ -50,9 +52,11 @@ public class baseClass {
 		driver.quit();
 	}
 	public void captureScreen(WebDriver driver, String screenschotname) throws IOException {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");   
+		bscreenshotname=screenschotname+dtf.format(java.time.LocalDateTime.now()).toString().replace(":","");
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File scr=ts.getScreenshotAs(OutputType.FILE);
-		File trgt=new File(System.getProperty("user.dir") + "/src/test/Screenshots/" + screenschotname + ".png");
+		File trgt=new File("./test-output/Screenshots/" + bscreenshotname + ".png");
 		FileUtils.copyFile(scr, trgt);
 		System.out.println("Screenshot taken");
 	}
