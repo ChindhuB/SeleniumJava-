@@ -1,10 +1,19 @@
 package com.maven.cms.ClinicalManagementSystem.Config;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
+import org.apache.commons.io.FileUtils;
 import org.testng.ITestContext;
 
 import org.testng.ITestResult;
@@ -25,11 +34,22 @@ public class ReportingNew extends TestListenerAdapter {
 	public ExtentSparkReporter htmlReporter;
 	ExtentReports extent;
 	ExtentTest logger;
+	public String repName;
+	public String timeStamp;
 
 	public void onStart(ITestContext testContext) {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
+		File trgt=new File("./report/");
+			if(trgt.exists()) {
+				try {
+					FileUtils.forceDelete(trgt);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		// specify name and location of the report
-		String repName = System.getProperty("user.dir") + "/test-output/" + "Test-Report-" + timeStamp + ".html";
+		repName = System.getProperty("user.dir") + "/test-output/" + "Test-Report-" + timeStamp + ".html";
 		htmlReporter = new ExtentSparkReporter(repName);
 		
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
@@ -115,6 +135,28 @@ public class ReportingNew extends TestListenerAdapter {
 
 	public void onFinish(ITestContext testContext) {
 		extent.flush();
+		//File scr=new File("./test-output/Test-Report-"+timeStamp+".html");
+		File scr=new File(repName);
+		File trgt=new File("./report/test-output/" + "Test-Report-" + timeStamp+".html");
+		try {
+			FileUtils.copyFile(scr, trgt);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String sourcedirpath="C:/Users/Cibin/Desktop/BusyQA/Eclipse/ClinicalManagementSystem/report";
+		new ZipDir(sourcedirpath);
+		File scr1=new File(sourcedirpath+".zip");
+		File trgt1=new File("C:/Program Files (x86)/Jenkins/workspace/ClinicalManagementSystem/report.zip");
+		try {
+			if(trgt1.exists()) {
+				FileUtils.forceDelete(trgt1);
+			}
+			FileUtils.copyFile(scr1, trgt1);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
