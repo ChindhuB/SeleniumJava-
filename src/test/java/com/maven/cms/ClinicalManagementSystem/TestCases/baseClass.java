@@ -57,7 +57,9 @@ public class baseClass {
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File scr=ts.getScreenshotAs(OutputType.FILE);
 		File trgt=new File("./test-output/Screenshots/" + bscreenshotname + ".png");
+		File jenktrgt=new File("./report/test-output/Screenshots/" + bscreenshotname + ".png");
 		FileUtils.copyFile(scr, trgt);
+		FileUtils.copyFile(scr,jenktrgt);
 		System.out.println("Screenshot taken");
 	}
 }
