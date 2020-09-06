@@ -33,6 +33,7 @@ public class baseClass {
 	public void setup(String browser) {
 		logger = Logger.getLogger("Clinical Managment System");
 		PropertyConfigurator.configure("Log4j.properties");
+		bscreenshotname="screenshotnamebaseclass";
 		if (browser.equalsIgnoreCase("firefox")) {
 			// Firefox Browser
 			System.setProperty("webdriver.gecko.driver", path);
