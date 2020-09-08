@@ -56,9 +56,6 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 
 		if (!cp.verifyClientcontactpresent()) {
 			try {
-				cp.cpphoneLinkclick();
-				logger.info("Client Page Phone Link Option click Passed");
-
 				if (cp.valcpphoneLinkclick(url)) {
 					Assert.assertTrue(true);
 					logger.info("Client Page Phone Link Option verification Passed");
@@ -69,8 +66,8 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 				}
 
 			} catch (Exception e) {
-				logger.info("Client Page Phone Link Option verification Failed");
-				captureScreen(driver, "cpPhoneLinkTest");
+				logger.info("Client Page Phone Link Option click verification Failed");
+				captureScreen(driver, "cpPhoneLinkclickTest");
 				Assert.assertTrue(false);
 				e.printStackTrace();
 			}

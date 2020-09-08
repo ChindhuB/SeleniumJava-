@@ -12,30 +12,28 @@ public class HomePg {
 	public WebDriverWait wait;
 	public Actions pgaction;
 	public boolean bval;
-	By hmhomeicon = By.xpath("//a[@id='ember16']//img");
-	By hmhomeicon1 = By.xpath("//a[@class='logo']//img");
+	By hmhomeicon = By.xpath("//a[@id='ember16']//img|//a[@class='logo']//img");
 	//By hmtrialcancelbutton = By.xpath("//button[@class='swal2-cancel button secondary-dismissive']");
 	By hmtrialcancelbutton = By.xpath("//button[contains(text(),'Cancel']");
 	By hmcalendar = By.id("ember27");
-	By hmvalcalendar = By.xpath("//th[@class='fc-day-header fc-widget-header fc-sun']");
 	By hmprivacybttn = By.xpath("//div[@class='privacy']");
 	By hmclients = By.xpath("//a[@id='ember28']");
-	String hmvalclients = "Clients & Contacts - ";
+	String hmvalclients = "Clients & Contacts";
 	By hmbilling = By.xpath("//div[@id='ember26']//a[3]");
 	String hmvalbilling = "Billing - ";
 	By hmreports = By.id("ember29");
-	By hmvalreports = By.xpath("//h2[contains(text(),'Reports')]");
+	By hmvalreports = By.xpath("//h3[contains(text(),'Reports')]");
 	By hmaccountactivity = By.id("ember30");
-	By hmvalaccountactivity = By.xpath("//h2[contains(text(),'Account Activity')]");
+	By hmvalaccountactivity = By.xpath("//h3[contains(text(),'Account Activity')]");
 	By hmreminders = By.partialLinkText("Reminders");
-	By hmvalreminders = By.xpath("//h2[contains(text(),'Reminders')]");
+	By hmvalreminders = By.xpath("//h3[contains(text(),'Reminders')]");
 	By hmcreatebttn = By.xpath("//button[@class='button-link button-navbar create']");
 	By hmcreateclient = By.xpath("//a[contains(text(),'Create Client')]");
 	By hmvalcreateclient = By.xpath("//h4[text()='Create Client']");
 	By hmclscreateclient = By.xpath("//button[@class='button-link']//i[@class='fa fa-times']");
 	By hmcreateappoint = By.xpath("//a[@class='ember-view js-create-appointment-link']");
 	By hmvalcreateappoint = By.xpath("//h4[contains(text(),'New Appointment')]");
-	By hmclscreateappoint = By.xpath("//a[@class='button secondary-dismissive cancel pull-right']");
+	By hmclscreateappoint = By.xpath("//a[@class='button secondary cancel pull-right']");
 	By hmmessage = By.xpath("//button[@class='ToggleButton']");
 	By hmvalmessage = By.xpath("//button[@class='ListHeaderBar-newMessageButton']");
 	By hmupgrade = By.id("ember21");
@@ -89,7 +87,7 @@ public class HomePg {
 	}
 
 	public void clickReportsbttn() {
-		driver.findElement(hmhomeicon1).click();
+		driver.findElement(hmhomeicon).click();
 		driver.findElement(hmreports).click();
 	}
 
@@ -105,15 +103,8 @@ public class HomePg {
 
 	public void clickCreatebttn() {
 
-		try {
-			driver.findElement(hmhomeicon1).click();
-		} catch (Exception e) {
+	
 			driver.findElement(hmhomeicon).click();
-			System.out.println("Trying another element locator for icon");
-		} finally {
-			System.out.println("Tried every possiblity");
-		}
-
 		driver.findElement(hmcreatebttn).click();
 	}
 
@@ -155,10 +146,8 @@ public class HomePg {
 	// Validating Home Page Buttons
 	public boolean valCalendarbttn() {
 		bval = false;
-
-		wait.until(ExpectedConditions.visibilityOf(driver.findElement(hmvalcalendar)));
-		bval = driver.findElement(hmvalcalendar).isDisplayed();
-
+		System.out.println(driver.findElement(hmcalendar).getAttribute("class"));
+		bval = driver.findElement(hmcalendar).getAttribute("class").contains("active");
 		return bval;
 	}
 
@@ -248,6 +237,11 @@ public class HomePg {
 	}
 
 	public boolean valMessagebttn() {
+		try {
+			Thread.sleep(500);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		bval = false;
 		try {
 			wait.until(ExpectedConditions.visibilityOf(driver.findElement(hmvalmessage)));
