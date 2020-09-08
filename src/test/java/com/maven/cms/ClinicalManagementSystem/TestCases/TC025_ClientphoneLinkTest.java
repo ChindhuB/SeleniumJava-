@@ -56,9 +56,6 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 
 		if (!cp.verifyClientcontactpresent()) {
 			try {
-				cp.cpphoneLinkclick();
-				logger.info("Client Page Phone Link Option click Passed");
-
 				if (cp.valcpphoneLinkclick(url)) {
 					Assert.assertTrue(true);
 					logger.info("Client Page Phone Link Option verification Passed");
