@@ -15,7 +15,8 @@
 			<!-- -->
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC001_LoginTest" />
-
+			<class
+				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC002_HomeCalendarTest" />
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC003_ClientSearchTest" />
 			<class

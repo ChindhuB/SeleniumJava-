@@ -35,7 +35,7 @@ public class ClientPg {
 	By cpmanageview = By.xpath("//a[@class='ember-view'][contains(text(),'View Client')]");
 	By cpclientnamepath = By.xpath("//a[@class='record-name ember-view']");
 	By cpmanageeditclientinfo = By.xpath("//a[@class='ember-view'][contains(text(),'Edit Client info')]");
-	By cpeditclientinfoclientnamepath = By.xpath("//h2[contains(text(),'Edit client')]//a[@class='ember-view']");
+	By cpeditclientinfoclientnamepath = By.cssSelector("h3[id^='ember'][class='ember-view']>[id^='ember'][class='ember-view']");
 	By cpmanagemergewith = By.xpath("//button[@class='merge-with']");
 	By cpmergewithtext = By
 			.xpath("//div[@class='__beb96 ember-view']//p//strong[contains(text(),'Selected for merge')]");
@@ -44,6 +44,7 @@ public class ClientPg {
 	By cpmanageactive = By.xpath("//button[@class='activate']");
 	By cpclientinactivegrid = By.xpath("//div[@class='grid-content']");
 	By cpclientphone = By.xpath("//a[contains(@href,'tel')]");
+	By cpvalclientname=By.cssSelector(".ember-view.name");
 
 	// Initializing Client Page
 	public ClientPg(WebDriver tdriver) {
@@ -191,8 +192,9 @@ public class ClientPg {
 			e.printStackTrace();
 		}
 		wait.until(ExpectedConditions
-				.visibilityOf(driver.findElement(By.xpath("//div[@class='inner']//div//div[@class='name']"))));
-		bval = driver.findElement(By.xpath("//div[@class='inner']//div//div[@class='name']")).getText()
+				.visibilityOf(driver.findElement(cpvalclientname)));
+		System.out.println(driver.findElement(cpvalclientname).getText());
+		bval = driver.findElement(cpvalclientname).getText()
 				.equalsIgnoreCase(cpclientname);
 		return bval;
 	}
@@ -220,7 +222,9 @@ public class ClientPg {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(cpeditclientinfoclientnamepath)));
+		System.out.println(driver.findElement(cpeditclientinfoclientnamepath).getText());
 		bval = driver.findElement(cpeditclientinfoclientnamepath).getText().equalsIgnoreCase(cpclientname);
 		return bval;
 	}
@@ -305,8 +309,9 @@ public class ClientPg {
 			e.printStackTrace();
 		}
 		wait.until(ExpectedConditions
-				.visibilityOf(driver.findElement(By.xpath("//div[@class='inner']//div//div[@class='name']"))));
-		bval = driver.findElement(By.xpath("//div[@class='inner']//div//div[@class='name']")).getText()
+				.visibilityOf(driver.findElement(cpvalclientname)));
+		System.out.println(driver.findElement(cpvalclientname).getText());
+		bval = driver.findElement(cpvalclientname).getText()
 				.equalsIgnoreCase(cpclientname);
 		return bval;
 	}

@@ -1,5 +1,6 @@
 package com.maven.cms.ClinicalManagementSystem.PageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -26,11 +27,10 @@ public class LoginPg {
 	@FindBy(xpath="//a[@id='ember16']//img")
 	@CacheLookup
 	WebElement logimage;
-	@FindBy(xpath="//button[@class='button-link button-navbar my-account js-my-account']")
-	@CacheLookup
-	WebElement logSettingsicon;
+	By logSettingsicon=By.xpath("//button[@class='button-link button-navbar my-account js-my-account']|//a[@class='button-navbar my-account js-my-account']");
 	@FindBy(xpath="//a[contains(text(),'Sign Out')]") 
-	@CacheLookup WebElement logSignout;
+	@CacheLookup
+	WebElement logSignout;
 	String title = "Calendar - ";
 	// Initializing Login Page
 	public LoginPg(WebDriver tdriver) {
@@ -63,12 +63,15 @@ public class LoginPg {
 
 	// SignOut Actions
 	public void clickSettingsicon() {
-		pgaction.moveToElement(logSettingsicon).build().perform();
-		logSettingsicon.click();
-
+	
+		pgaction.moveToElement(driver.findElement(logSettingsicon)).build().perform();
+		driver.findElement(logSettingsicon).click();
+		
 	}
 
 	public void clickSignout() {
+		wait.until(ExpectedConditions
+				.visibilityOf(logSignout));
 		pgaction.moveToElement(logSignout).build().perform();
 		logSignout.click();
 	}

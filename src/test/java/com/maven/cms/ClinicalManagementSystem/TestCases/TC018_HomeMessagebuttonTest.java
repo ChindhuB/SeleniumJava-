@@ -49,6 +49,7 @@ public class TC018_HomeMessagebuttonTest extends baseClass{
 			Assert.assertTrue(false);
 		}
 		lp.clickSettingsicon();
+		lp.clickSettingsicon();
 		lp.clickSignout();
 		logger.info("Sign out from system");
 	}
